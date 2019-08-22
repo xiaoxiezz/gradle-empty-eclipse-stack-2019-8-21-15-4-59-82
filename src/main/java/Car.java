@@ -9,13 +9,9 @@ public class Car {
 
 	 public static void main(String [] args) {
 	  start();
-	  speedOn();
 	 }
 	 public static void start(){
 		 System.out.println("{engine} is on and {wheels} are running!");
-	 }
-	 public static void speedOn(){
-		 System.out.println("{engine} is overload and {wheels} are super running!");
 	 }
 	 
 }

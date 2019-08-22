@@ -7,6 +7,14 @@ public class SportsCar extends Car {
 		this.lights=lights;
 	}
 	public static void main(String [] args){
+		speedOn();
+		lights();
+	}
+	public static void lights(){
 		System.out.println("{lights} are shining, {engine} is on and {wheels} are running!");
 	}
+	
+	public static void speedOn(){
+		 System.out.println("{engine} is overload and {wheels} are super running!");
+	 }
 }
